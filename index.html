@@ -15,13 +15,16 @@
 	  </h1>
 	  <div style="width:261px background:"FFF8DC">
 		  <form name="Calculator">
-		  	<input id="display" type="text" name="display" placeholder="0"/>
+		  	<input id="display" type="text" name="display" placeholder="0" />
 		  	<br>
 		  	<input id = "btn7" type="button" value="7" onclick="document.Calculator.display.value += 7" />
 		  	<input id = "btn8" type="button" value="8" onclick="document.Calculator.display.value += 8" />
 		  	<input id = "btn9" type="button" value="9" onclick="document.Calculator.display.value += 9" />
 		  	<input id = "btnPlus" type="button" value="+" onclick="document.Calculator.display.value += '+'" />
 		  	<input id = "btnMod" type="button" value="mod" onclick="document.Calculator.display.value += '%'" />
+		  	<input id = "btnSin" type="button" value="sin" onclick="document.Calculator.display.value += 'sin()'" />
+		  	<input id = "btnExp" type="button" value="exp" onclick="document.Calculator.display.value += 'exp()'" />
+		  	<input id = "btnLeftParenthesis" type="button" value="(" onclick="document.Calculator.display.value += '('" />
 		  	<br>
 		  	<br>
 		  	<input id = "btn4" type="button" value="4" onclick="document.Calculator.display.value += 4" />
@@ -29,6 +32,9 @@
 		  	<input id = "btn6" type="button" value="6" onclick="document.Calculator.display.value += 6" />
 		  	<input id = "btnMinus" type="button" value="-" onclick="document.Calculator.display.value += '-'" />
 		  	<input id = "btnPower" type="button" value="pow" onclick="document.Calculator.display.value += '**'" />
+		  	<input id = "btnCos" type="button" value="cos" onclick="document.Calculator.display.value += 'cos()'" />
+		  	<input id = "btnLog" type="button" value="log" onclick="document.Calculator.display.value += 'log()'" />
+		  	<input id = "btnRightParenthesis" type="button" value=")" onclick="document.Calculator.display.value += ')'" />
 		  	<br>
 		  	<br>
 		  	<input id = "btn1" type="button" value="1" onclick="document.Calculator.display.value += 1" />
@@ -36,6 +42,9 @@
 		  	<input id = "btn3" type="button" value="3" onclick="document.Calculator.display.value += 3" />
 		  	<input id = "btnMultiply" type="button" value="*" onclick="document.Calculator.display.value += '*'" />
 		  	<input id = "btnPlusMinus" type="button" value="+/-" onclick="onBtnPlusMinusClicked()" />
+		  	<input id = "btnTan" type="button" value="tan" onclick="document.Calculator.display.value += 'tan()'" />
+		  	<input id = "btnLog10" type="button" value="log10" onclick="document.Calculator.display.value += 'log10()'" />
+		  	<input id = "btnPi" type="button" value="PI" onclick="document.Calculator.display.value += 'PI'" />
 		  	<br>
 		  	<br>
 		  	<input id = "btn0" type="button" value="0" onclick="document.Calculator.display.value += 0" />
@@ -43,6 +52,9 @@
 		  	<input id = "btnEquals" type="button" value="=" onclick="onBtnEqualsClicked()" />
 		  	<input id = "btnDivide" type="button" value="/" onclick="document.Calculator.display.value += '/'" />
 		  	<input id = "btnClear" type="button" value="C" onclick="onBtnClearClicked()" />
+		  	<input id = "btnSqrt" type="button" value="sqrt" onclick="document.Calculator.display.value += 'sqrt()'" />
+		  	<input id = "btnCbrt" type="button" value="cbrt" onclick="document.Calculator.display.value += 'cbrt()'" />
+		  	<input id = "btnE" type="button" value="E" onclick="document.Calculator.display.value += 'E'" />
 		  	<br>
 		  </form>  	
 	  </div>

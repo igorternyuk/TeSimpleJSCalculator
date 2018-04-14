@@ -1,5 +1,5 @@
 #display {
-    width: 320px;
+    width: 520px;
     height: 60px;
     font-size: 30px;
     padding: 12px 20px;
@@ -22,6 +22,12 @@ input[type=button] {
     background-color: #f1524e;
 }
 
-#btnMod, #btnPower {
+#btnMod, #btnPower,#btnSin,#btnCos,#btnTan,#btnExp,#btnLog,#btnLog10,
+#btnSqrt,#btnCbrt,#btnLeftParenthesis,#btnRightParenthesis,#btnPi,#btnE,#btnPlusMinus,#btnClear {
 	font-size: 20px;
+	background-color: #18bef0;
+}
+
+#btnLog10 {
+	font-size: 14px;
 }
