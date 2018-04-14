@@ -1,0 +1,27 @@
+#display {
+    width: 320px;
+    height: 60px;
+    font-size: 30px;
+    padding: 12px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color: red;
+    border-style: inset;
+    margin: 8px;
+}
+
+input[type=button] {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+#btnPlus,#btnMinus,#btnMultiply, #btnDivide {
+    background-color: #f1524e;
+}
+
+#btnMod, #btnPower {
+	font-size: 20px;
+}
